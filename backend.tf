@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket         = "terraformstate-hcl_hands_on"
+    bucket         = "mys3bucketforhandson-123"
     key            = "state/terraform.tfstate"
-    region         = "us-east-1"
+    region         = "ap-southeast-2"
   }
 }
